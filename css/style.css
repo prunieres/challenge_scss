@@ -1,11 +1,14 @@
 header {
   background-color: #281400;
-  color: white; }
-  header button {
-    background-color: #a28f61; }
+  color: white;
+}
+header button {
+  background-color: #a28f61;
+}
 
 footer {
   background-color: #0f3e57;
-  color: white; }
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
