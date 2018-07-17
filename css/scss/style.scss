@@ -2,7 +2,7 @@
 header{
     background-color: $bgColor1;
     color: white;
-    min-height: 100vh;
+    min-height: 90vh;
     button{
         background-color: $btnColor1;
     }
@@ -10,4 +10,23 @@ header{
 footer {
     background-color: $bgColor2;
     color: white;
+    ul{
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        a{
+            color: $textLight;
+        }
+    }
+    i {
+        padding-right: 5%;
+    }
+    .input-group-text{
+        background-color: transparent;
+        color: white;
+    }
+}
+main, footer {
+    padding: 5rem 10%;
 }
