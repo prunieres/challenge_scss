@@ -1,8 +1,13 @@
 @import "partialColor";
-header, nav{
+header{
     background-color: $bgColor1;
     color: white;
+    button{
+        background-color: $btnColor1;
+    }
 }
+
+
 footer {
     background-color: $bgColor2;
     color: white;
