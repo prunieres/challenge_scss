@@ -1,35 +1,36 @@
 header {
   background-color: #281400;
   color: white;
-  min-height: 90vh;
-}
-header button {
-  background-color: #a28f61;
-}
+  min-height: 90vh; }
+  header button {
+    background-color: #a28f61; }
+
+.chevron {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  font-size: 3rem;
+  color: #b6b6b6; }
+
+h1, h2, h3 {
+  font-family: 'Lora', serif; }
 
 footer {
   background-color: #0f3e57;
-  color: white;
-}
-footer ul {
-  padding: 0;
-}
-footer li {
-  list-style: none;
-}
-footer li a {
-  color: #b6b6b6;
-}
-footer i {
-  padding-right: 5%;
-}
-footer .input-group-text {
-  background-color: transparent;
-  color: white;
-}
+  color: white; }
+  footer ul {
+    padding: 0; }
+  footer li {
+    list-style: none; }
+    footer li a {
+      color: #b6b6b6; }
+  footer i {
+    padding-right: 5%; }
+  footer .input-group-text {
+    background-color: transparent;
+    color: white; }
 
 main, footer {
-  padding: 5rem 10%;
-}
+  padding: 5rem 10%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,6 +7,17 @@ header{
         background-color: $btnColor1;
     }
 }
+.chevron {
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+	font-size: 3rem;
+	color: $textLight;
+}
+
+h1, h2,h3{
+    font-family: 'Lora', serif;
+}
 footer {
     background-color: $bgColor2;
     color: white;
