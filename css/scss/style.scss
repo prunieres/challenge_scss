@@ -1,0 +1,9 @@
+@import "partialColor";
+header, nav{
+    background-color: $bgColor1;
+    color: white;
+}
+footer {
+    background-color: $bgColor2;
+    color: white;
+}

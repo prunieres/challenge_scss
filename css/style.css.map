@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACA,WAAW;EACP,gBAAgB,ECFT,OAAO;EDGd,KAAK,EAAE,KAAK;;;AAEhB,MAAO;EACH,gBAAgB,ECLT,OAAO;EDMd,KAAK,EAAE,KAAK",
+"sources": ["scss/style.scss","scss/_partialColor.scss"],
 "names": [],
 "file": "style.css"
 }
