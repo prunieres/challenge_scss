@@ -1,8 +1,15 @@
 @import "partialColor";
-header{
+header.catalog{
     background-color: $bgColor1;
     color: white;
     min-height: 90vh;
+    button{
+        background-color: $btnColor1;
+    }
+}
+header.product{
+    background-color: $bgColor1;
+    color: white;
     button{
         background-color: $btnColor1;
     }

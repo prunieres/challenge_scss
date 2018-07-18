@@ -1,61 +1,54 @@
-header {
+header.catalog {
   background-color: #281400;
   color: white;
-  min-height: 90vh;
-}
-header button {
-  background-color: #a28f61;
-}
+  min-height: 90vh; }
+  header.catalog button {
+    background-color: #a28f61; }
+
+header.product {
+  background-color: #281400;
+  color: white; }
+  header.product button {
+    background-color: #a28f61; }
 
 .chevron {
   position: absolute;
   bottom: 10%;
   right: 5%;
   font-size: 3rem;
-  color: #b6b6b6;
-}
+  color: #b6b6b6; }
 
 h1, h2, h3 {
-  font-family: 'Lora', serif;
-}
+  font-family: 'Lora', serif; }
 
 footer {
   background-color: #0f3e57;
-  color: white;
-}
-footer ul {
-  padding: 0;
-}
-footer li {
-  list-style: none;
-}
-footer li a {
-  color: #b6b6b6;
-}
-footer i {
-  padding-right: 5%;
-}
-footer .input-group-text {
-  background-color: transparent;
-  color: white;
-}
+  color: white; }
+  footer ul {
+    padding: 0; }
+  footer li {
+    list-style: none; }
+    footer li a {
+      color: #b6b6b6; }
+  footer i {
+    padding-right: 5%; }
+  footer .input-group-text {
+    background-color: transparent;
+    color: white; }
 
 .cardImg {
-  position: relative;
-}
-.cardImg .soldOut {
-  -webkit-clip-path: polygon(100% 0, 100% 5%, 5% 100%, 0 100%, 0 95%, 95% 0);
-  clip-path: polygon(100% 0, 100% 5%, 5% 100%, 0 100%, 0 95%, 95% 0);
-  background-color: rgba(255, 0, 0, 0.6);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  position: relative; }
+  .cardImg .soldOut {
+    -webkit-clip-path: polygon(100% 0, 100% 5%, 5% 100%, 0 100%, 0 95%, 95% 0);
+    clip-path: polygon(100% 0, 100% 5%, 5% 100%, 0 100%, 0 95%, 95% 0);
+    background-color: rgba(255, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 main, footer {
-  padding: 5rem 10%;
-}
+  padding: 5rem 10%; }
 
 /*# sourceMappingURL=style.css.map */
