@@ -57,6 +57,23 @@ footer {
         height: 100%;
     }
 }
-main, footer {
-    padding: 5rem 10%;
+@media screen and (min-width: 1100px) {
+    main, footer {
+        padding: 5rem 10%;
+    }
+}
+.card-body {
+
+    h1 {
+        // font-size: 100%;
+    }
+    p {
+        padding: 2rem 0;
+    }
+}
+.card-footer {
+    button {
+        margin: 0 10%;
+        width: 80%;
+    }
 }
