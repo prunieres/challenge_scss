@@ -15,6 +15,18 @@ header.product button {
   background-color: #a28f61;
 }
 
+.card {
+  box-shadow: 0 0 20px #b6b6b6;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.card:active {
+  position: relative;
+  width: 150%;
+  z-index: 1;
+}
+
 .chevron {
   position: absolute;
   bottom: 10%;
@@ -74,6 +86,20 @@ footer .input-group-text {
 .card-footer button {
   margin: 0 10%;
   width: 80%;
+}
+
+section {
+  padding: 20% 10%;
+  background-color: #a28f61;
+  color: #0f3e57;
+  border-radius: 5px;
+}
+section i {
+  font-size: 5rem;
+}
+section strong {
+  border: solid #0f3e57;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

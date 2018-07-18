@@ -14,6 +14,16 @@ header.product{
         background-color: $btnColor1;
     }
 }
+.card {
+    box-shadow: 0 0 20px $textLight;
+    width: 100%;
+    transition: all 0.5s;
+}
+.card:active {
+    position: relative;
+    width: 150%;
+    z-index: 1;
+}
 .chevron {
 	position: absolute;
 	bottom: 10%;
@@ -76,4 +86,18 @@ footer {
         margin: 0 10%;
         width: 80%;
     }
+}
+section{
+    padding: 20% 10%;
+    background-color: #a28f61;
+    color: $bgColor2;
+    border-radius: 5px;
+    i {
+        font-size: 5rem;
+    }
+    strong {
+        border: solid $bgColor2;
+        border-radius: 10px;
+    }
+
 }
